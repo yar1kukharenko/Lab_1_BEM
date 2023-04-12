@@ -37,11 +37,11 @@
 
 - Header
 
-![Header](/form.png)
-
 ```
     header.header>div.header__container>div.header__logo+(nav.header__nav>ul.header__nav-list>li.header__nav-item*4>a.header__nav-link)+button.header__menu-button
 ```
+
+![Header](/form.png)
 
 - Form
 
@@ -49,11 +49,15 @@
     form.form>div.form__container>fieldset.form__fieldset>(legend.form__legend+label.form__label*3>input.form__input)+button.form__button[type="submit"]
 ```
 
+![Form](/form.png)
+
 - Cards
 
 ```
     section.card>(div.card__container>img.card__image+div.card__content>h3.card__title+div.card__cta>a.card__link)*4
 ```
+
+![Cards](/cards.png)
 
 - Footer
 
@@ -61,3 +65,5 @@
     footer.footer>(div.footer__logo_section>div.footer__logo_section__logo+div.footer__logo_section__text+(div.footer__logo_section__links>a.footer__logo_section__link*4))+(div.footer__links>h6.footer__links__header+footer__link*4)*3
 
 ```
+
+![Footer](/footer.png)
